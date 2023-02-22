@@ -14,6 +14,7 @@ async function get() {
 	// const response = await axios.get("https://lyrix.vercel.app/getLyrics/50u2y4zgROMZq2db8Qx94B")
 	// return response
 
+
 	const file = fs.readFileSync('data.json', 'utf-8');
 	return JSON.parse(file)
 
